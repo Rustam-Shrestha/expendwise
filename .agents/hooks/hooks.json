@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "name": "token-optimizer-compressor",
+        "description": "Compresses tool output, truncates noisy payloads, and tracks token usage before rendering into context.",
+        "action": "compress_output",
+        "max_lines": 50
+      }
+    ],
+    "PostToolUse": [
+      {
+        "name": "antigravity-shake-auto-pruner",
+        "description": "Auto-triggers transcript pruning when context window threshold is reached.",
+        "action": "check_shake_threshold",
+        "threshold_tokens": 40000
+      }
+    ]
+  }
+}

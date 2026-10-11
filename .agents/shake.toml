@@ -1,0 +1,13 @@
+# antigravity-shake-skill Configuration
+
+[shake]
+auto_shake_enabled = true
+auto_shake_threshold_tokens = 40000
+preserve_last_n_turns = 3
+preserve_errors = true
+preserve_reasoning_summaries = true
+prune_tool_outputs = true
+
+[compaction]
+enable_checkpoints = true
+auto_restore_on_failure = true

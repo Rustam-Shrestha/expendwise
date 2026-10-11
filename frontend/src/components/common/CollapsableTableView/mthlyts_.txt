@@ -1,0 +1,648 @@
+the big issue is with the monthly timesheet
+
+first please have the whole view ofthe timesheet monthly view
+
+/timesheet?period=month&year=2026&month=05
+
+{
+    "data": [
+        {
+            "_id": "69f09d4d08045fdba21abbb5",
+            "title": "Vacc",
+            "isOccupied": true,
+            "department": null,
+            "position": {
+                "_id": "69f09cba07db42102556fa32",
+                "title": "Team Leader"
+            },
+            "client": {
+                "_id": "69f09cba07db42102556fa82",
+                "name": "Dr. Jesse Willms-Swift",
+                "userType": "Client",
+                "clientCode": "C1980",
+                "id": "69f09cba07db42102556fa82",
+                "isClosed": null
+            },
+            "shift": "morning",
+            "sun": 3,
+            "mon": 4,
+            "tue": 4,
+            "wed": 4,
+            "thu": 4,
+            "fri": 4,
+            "sat": 3,
+            "contHours": 26,
+            "contWeeks": 52,
+            "weeklySalary": 156,
+            "payType": "hourly",
+            "annualSalary": 8112,
+            "weekRate": 6,
+            "satRate": 6,
+            "sunRate": 6,
+            "OTRate": 6,
+            "total": 8274,
+            "createdBy": "69f09cba07db42102556fa28",
+            "createdAt": "2026-04-28T11:43:09.680Z",
+            "updatedAt": "2026-05-07T10:39:12.288Z",
+            "__v": 0,
+            "employee": {
+                "_id": "69f09cba07db42102556fa28",
+                "name": "admin",
+                "image": "",
+                "userType": "Employee",
+                "id": "69f09cba07db42102556fa28"
+            },
+            "id": "69f09d4d08045fdba21abbb5",
+            "timesheet": [
+                {
+                    "employeeId": "69f09cba07db42102556fa28",
+                    "vacancy": "69f09d4d08045fdba21abbb6",
+                    "jobNo": "001",
+                    "name": "admin",
+                    "isCover": false,
+                    "correctedBy": null,
+                    "approvedBy": null,
+                    "checkedBy": null,
+                    "week1": {
+                        "dateRange": "May 01 - May 03",
+                        "days": {
+                            "fri": {
+                                "estimatedHours": 4,
+                                "estimatedMinutes": 0,
+                                "actualHours": 1,
+                                "actualMinutes": 40,
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "deficitHours": 2,
+                                "deficitMinutes": 20,
+                                "deficit": "2h 20m",
+                                "contractedHours": 4,
+                                "tasks": [
+                                    {
+                                        "_id": "69f09eee08045fdba21abd0e",
+                                        "title": "Doc",
+                                        "vacancy": "69f09d4d08045fdba21abbb6",
+                                        "assignedTo": "69f09cba07db42102556fa28",
+                                        "client": {
+                                            "name": "Dr. Jesse Willms-Swift",
+                                            "id": "69f09cba07db42102556fa82"
+                                        },
+                                        "isCover": false,
+                                        "taskType": "Doc",
+                                        "jobNo": "001",
+                                        "payment": "paid",
+                                        "date": "2026-05-01",
+                                        "hours": 4,
+                                        "minutes": 0,
+                                        "description": "",
+                                        "status": "approved",
+                                        "correctedHours": 0,
+                                        "correctedMinutes": 0,
+                                        "actualHours": 1,
+                                        "actualMinutes": 40,
+                                        "rate": null,
+                                        "createdAt": "2026-04-28T11:50:06.724Z",
+                                        "updatedAt": "2026-05-03T08:31:20.676Z",
+                                        "parsedDate": "2026-05-01T00:00:00.000Z",
+                                        "weekOfMonth": 1,
+                                        "dayOfWeek": 6,
+                                        "formattedDate": "2026-05-01",
+                                        "contractedTime": {
+                                            "_id": "69f09d4d08045fdba21abbb5",
+                                            "weekRate": 6,
+                                            "satRate": 6,
+                                            "sunRate": 6,
+                                            "OTRate": 6,
+                                            "contractedHours": 4
+                                        },
+                                        "isClosedDate": false,
+                                        "estimatedTotalMinutes": 240,
+                                        "actualTotalMinutes": 100,
+                                        "correctedTotalMinutes": 0,
+                                        "contractedHours": 4,
+                                        "employee": {
+                                            "name": "admin",
+                                            "id": "69f09cba07db42102556fa28"
+                                        },
+                                        "correctedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "checkedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "approvedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        }
+                                    }
+                                ]
+                            },
+                            "sat": {
+                                "estimatedHours": 4,
+                                "estimatedMinutes": 0,
+                                "actualHours": 0,
+                                "actualMinutes": 0,
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "deficitHours": 4,
+                                "deficitMinutes": 0,
+                                "deficit": "4h 0m",
+                                "contractedHours": 3,
+                                "tasks": [
+                                    {
+                                        "_id": "69f09eee08045fdba21abd0f",
+                                        "title": "Doc",
+                                        "vacancy": "69f09d4d08045fdba21abbb6",
+                                        "assignedTo": "69f09cba07db42102556fa28",
+                                        "client": {
+                                            "name": "Dr. Jesse Willms-Swift",
+                                            "id": "69f09cba07db42102556fa82"
+                                        },
+                                        "isCover": false,
+                                        "taskType": "Doc",
+                                        "jobNo": "001",
+                                        "payment": "paid",
+                                        "date": "2026-05-02",
+                                        "hours": 4,
+                                        "minutes": 0,
+                                        "description": "",
+                                        "status": "approved",
+                                        "correctedHours": 0,
+                                        "correctedMinutes": 0,
+                                        "actualHours": 0,
+                                        "actualMinutes": 0,
+                                        "rate": null,
+                                        "createdAt": "2026-04-28T11:50:06.724Z",
+                                        "updatedAt": "2026-05-03T08:31:48.267Z",
+                                        "parsedDate": "2026-05-02T00:00:00.000Z",
+                                        "weekOfMonth": 1,
+                                        "dayOfWeek": 7,
+                                        "formattedDate": "2026-05-02",
+                                        "contractedTime": {
+                                            "_id": "69f09d4d08045fdba21abbb5",
+                                            "weekRate": 6,
+                                            "satRate": 6,
+                                            "sunRate": 6,
+                                            "OTRate": 6,
+                                            "contractedHours": 3
+                                        },
+                                        "isClosedDate": false,
+                                        "estimatedTotalMinutes": 240,
+                                        "actualTotalMinutes": 0,
+                                        "correctedTotalMinutes": 0,
+                                        "contractedHours": 3,
+                                        "employee": {
+                                            "name": "admin",
+                                            "id": "69f09cba07db42102556fa28"
+                                        },
+                                        "correctedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "checkedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "approvedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        }
+                                    }
+                                ]
+                            },
+                            "sun": {
+                                "estimatedHours": 4,
+                                "estimatedMinutes": 0,
+                                "actualHours": 0,
+                                "actualMinutes": 0,
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "deficitHours": 4,
+                                "deficitMinutes": 0,
+                                "deficit": "4h 0m",
+                                "contractedHours": 3,
+                                "tasks": [
+                                    {
+                                        "_id": "69f09eee08045fdba21abd10",
+                                        "title": "Doc",
+                                        "vacancy": "69f09d4d08045fdba21abbb6",
+                                        "assignedTo": "69f09cba07db42102556fa28",
+                                        "client": {
+                                            "name": "Dr. Jesse Willms-Swift",
+                                            "id": "69f09cba07db42102556fa82"
+                                        },
+                                        "isCover": false,
+                                        "taskType": "Doc",
+                                        "jobNo": "001",
+                                        "payment": "paid",
+                                        "date": "2026-05-03",
+                                        "hours": 4,
+                                        "minutes": 0,
+                                        "description": "",
+                                        "status": "approved",
+                                        "correctedHours": 0,
+                                        "correctedMinutes": 0,
+                                        "actualHours": 0,
+                                        "actualMinutes": 0,
+                                        "rate": null,
+                                        "createdAt": "2026-04-28T11:50:06.725Z",
+                                        "updatedAt": "2026-05-03T08:31:48.268Z",
+                                        "parsedDate": "2026-05-03T00:00:00.000Z",
+                                        "weekOfMonth": 1,
+                                        "dayOfWeek": 1,
+                                        "formattedDate": "2026-05-03",
+                                        "contractedTime": {
+                                            "_id": "69f09d4d08045fdba21abbb5",
+                                            "weekRate": 6,
+                                            "satRate": 6,
+                                            "sunRate": 6,
+                                            "OTRate": 6,
+                                            "contractedHours": 3
+                                        },
+                                        "isClosedDate": false,
+                                        "estimatedTotalMinutes": 240,
+                                        "actualTotalMinutes": 0,
+                                        "correctedTotalMinutes": 0,
+                                        "contractedHours": 3,
+                                        "employee": {
+                                            "name": "admin",
+                                            "id": "69f09cba07db42102556fa28"
+                                        },
+                                        "correctedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "checkedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        },
+                                        "approvedBy": {
+                                            "id": "69f09cba07db42102556fa28",
+                                            "name": "admin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "total": {
+                            "estimatedHours": 12,
+                            "estimatedMinutes": 0,
+                            "actualHours": 1,
+                            "actualMinutes": 40,
+                            "correctedHours": 0,
+                            "correctedMinutes": 0,
+                            "contractedHours": 10,
+                            "deficitHours": 10,
+                            "deficitMinutes": 20,
+                            "deficit": "10h 20m"
+                        }
+                    },
+
+foming from bottom this is like it cutting most of part here between remaining comes like this after 
+                    "monthTotal": {
+                        "estimatedHours": 11,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "correctedHours": 0,
+                        "correctedMinutes": 0,
+                        "contractedHours": 4
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+now for other 
+
+/task/timesheet-variation/69f09cba07db42102556fa82?period=month&date=2026-05-01
+
+{
+    "data": [
+        {
+            "employeeId": "69f09cba07db42102556fa28",
+            "name": "admin",
+            "isCover": false,
+            "week1": {
+                "dateRange": "May 01 - May 02",
+                "days": null,
+                "total": null
+            },
+            "week2": {
+                "dateRange": "May 02 - May 08",
+                "days": {
+                    "mon": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "tue": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "wed": {
+                        "estimatedHours": 11,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": [
+                            {
+                                "_id": "6a002e175a7c493c7f8c7139",
+                                "title": "Variation",
+                                "variationVacancy": "6a002df20c8e956d797473d1",
+                                "hourId": "6a002df25a7c493c7f8c70f6",
+                                "periodicHourId": null,
+                                "variationId": null,
+                                "pickupPoint": null,
+                                "pickupTime": null,
+                                "client": "69f09cba07db42102556fa82",
+                                "isClosed": false,
+                                "isOnLeave": false,
+                                "isCover": true,
+                                "taskType": "Variation",
+                                "jobNo": "001",
+                                "payment": "paid",
+                                "date": "2026-05-13",
+                                "appointmentTime": "12:49 PM",
+                                "endTime": "11:49 PM",
+                                "hours": 11,
+                                "minutes": 0,
+                                "vary": false,
+                                "description": "a;sdfjl",
+                                "recurrence": false,
+                                "isLateEntry": false,
+                                "isLateExit": false,
+                                "status": "pending",
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "actualHours": 0,
+                                "actualMinutes": 0,
+                                "totalPaidBreakHours": 0,
+                                "totalPaidBreakMinutes": 0,
+                                "totalUnpaidBreakHours": 0,
+                                "totalUnpaidBreakMinutes": 0,
+                                "createdBy": "69f09cba07db42102556fa28",
+                                "rescheduled": false,
+                                "weeklyFinalized": false,
+                                "monthlyFinalized": false,
+                                "breaks": [],
+                                "createdAt": "2026-05-10T07:04:55.715Z",
+                                "updatedAt": "2026-05-10T07:04:55.715Z",
+                                "recurrenceData": null,
+                                "__v": 0
+                            }
+                        ]
+                    },
+                    "thu": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "fri": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "sat": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "sun": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    }
+                },
+                "total": {
+                    "estimatedHours": 11,
+                    "estimatedMinutes": 0,
+                    "actualHours": 0,
+                    "actualMinutes": 0
+                }
+            },
+            "week3": {
+                "dateRange": "May 09 - May 15",
+                "days": null,
+                "total": null
+            },
+            "week4": {
+                "dateRange": "May 16 - May 22",
+                "days": null,
+                "total": null
+            },
+            "week5": {
+                "dateRange": "May 23 - May 31",
+                "days": null,
+                "total": null
+            },
+            "monthTotal": {
+                "estimatedHours": 11,
+                "estimatedMinutes": 0,
+                "actualHours": 0,
+                "actualMinutes": 0
+            }
+        }
+    ]
+}
+
+
+finally the timesheet for periodic
+
+task/timesheet-periodic/69f09cba07db42102556fa82?period=month&date=2026-05-01
+
+
+{
+    "data": [
+        {
+            "employeeId": "69f09cba07db42102556fa28",
+            "name": "admin",
+            "isCover": false,
+            "week1": {
+                "dateRange": "May 01 - May 02",
+                "days": {
+                    "mon": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "tue": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "wed": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "thu": {
+                        "estimatedHours": 106,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": [
+                            {
+                                "_id": "69fc6a375e312e9d5b22450d",
+                                "title": "accomodation",
+                                "clientPeriodic": "69f0a0c608045fdba21abfb2",
+                                "accomodationTask": "69fc6a365e312e9d5b224507",
+                                "periodicHourId": null,
+                                "variationId": null,
+                                "pickupPoint": "asdf",
+                                "pickupTime": "2026-05-07T10:31:00.000Z",
+                                "client": "69f09cba07db42102556fa82",
+                                "isClosed": false,
+                                "isOnLeave": false,
+                                "isCover": false,
+                                "taskType": "periodic",
+                                "date": "2026-05-07",
+                                "hours": 53,
+                                "minutes": 0,
+                                "vary": false,
+                                "recurrence": false,
+                                "isLateEntry": false,
+                                "isLateExit": false,
+                                "status": "pending",
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "actualHours": 0,
+                                "actualMinutes": 0,
+                                "totalPaidBreakHours": 0,
+                                "totalPaidBreakMinutes": 0,
+                                "totalUnpaidBreakHours": 0,
+                                "totalUnpaidBreakMinutes": 0,
+                                "createdBy": "69f09cba07db42102556fa28",
+                                "rescheduled": false,
+                                "rate": 0.8490566037735849,
+                                "weeklyFinalized": false,
+                                "monthlyFinalized": false,
+                                "breaks": [],
+                                "createdAt": "2026-05-07T10:32:23.029Z",
+                                "updatedAt": "2026-05-07T10:32:23.029Z",
+                                "recurrenceData": null,
+                                "__v": 0
+                            },
+                            {
+                                "_id": "69fd87d8d8e8762b00e16f72",
+                                "title": "accomodation",
+                                "clientPeriodic": "69f0a0c608045fdba21abfb2",
+                                "accomodationTask": "69fd87d8d8e8762b00e16f6c",
+                                "periodicHourId": null,
+                                "variationId": null,
+                                "pickupPoint": "rabbit hole 2",
+                                "pickupTime": "2026-05-07T06:50:00.000Z",
+                                "client": "69f09cba07db42102556fa82",
+                                "isClosed": false,
+                                "isOnLeave": false,
+                                "isCover": false,
+                                "taskType": "periodic",
+                                "date": "2026-05-07",
+                                "hours": 53,
+                                "minutes": 0,
+                                "vary": false,
+                                "recurrence": false,
+                                "isLateEntry": false,
+                                "isLateExit": false,
+                                "status": "pending",
+                                "correctedHours": 0,
+                                "correctedMinutes": 0,
+                                "actualHours": 0,
+                                "actualMinutes": 0,
+                                "totalPaidBreakHours": 0,
+                                "totalPaidBreakMinutes": 0,
+                                "totalUnpaidBreakHours": 0,
+                                "totalUnpaidBreakMinutes": 0,
+                                "createdBy": "69f09cba07db42102556fa28",
+                                "rescheduled": false,
+                                "rate": 0.8490566037735849,
+                                "weeklyFinalized": false,
+                                "monthlyFinalized": false,
+                                "breaks": [],
+                                "createdAt": "2026-05-08T06:51:04.038Z",
+                                "updatedAt": "2026-05-08T06:51:04.038Z",
+                                "recurrenceData": null,
+                                "__v": 0
+                            }
+                        ]
+                    },
+                    "fri": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "sat": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    },
+                    "sun": {
+                        "estimatedHours": 0,
+                        "estimatedMinutes": 0,
+                        "actualHours": 0,
+                        "actualMinutes": 0,
+                        "tasks": []
+                    }
+                },
+                "total": {
+                    "estimatedHours": 106,
+                    "estimatedMinutes": 0,
+                    "actualHours": 0,
+                    "actualMinutes": 0
+                }
+            },
+            "week2": {
+                "dateRange": "May 02 - May 08",
+                "days": null,
+                "total": null
+            },
+            "week3": {
+                "dateRange": "May 09 - May 15",
+                "days": null,
+                "total": null
+            },
+            "week4": {
+                "dateRange": "May 16 - May 22",
+                "days": null,
+                "total": null
+            },
+            "week5": {
+                "dateRange": "May 23 - May 31",
+                "days": null,
+                "total": null
+            },
+            "monthTotal": {
+                "estimatedHours": 106,
+                "estimatedMinutes": 0,
+                "actualHours": 0,
+                "actualMinutes": 0
+            }
+        }
+    ]
+}

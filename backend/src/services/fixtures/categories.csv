@@ -1,0 +1,14 @@
+userId,name,slug,icon,color,kind,isSystem,budgetDefault,fixtureId,id
+,Salary,salary,salary,#16A34A,income,true,50000,category-0,6ab55e75e0a76d68d18b8ca3
+,Freelance,freelance,freelance,#0284C7,income,true,15000,category-1,6ab55e75e0a76d68d18b8ca4
+,Gift,gift,gift,#D97706,income,true,5000,category-2,6ab55e75e0a76d68d18b8ca5
+,Investment,investment,investment,#7C3AED,income,true,10000,category-3,6ab55e75e0a76d68d18b8ca6
+,Food,food,food,#16A34A,expense,true,18000,category-4,6ab55e75e0a76d68d18b8ca7
+,Housing,housing,housing,#334155,expense,true,30000,category-5,6ab55e75e0a76d68d18b8ca8
+,Transport,transport,transport,#0284C7,expense,true,8000,category-6,6ab55e75e0a76d68d18b8ca9
+,Utilities,utilities,utilities,#D97706,expense,true,7000,category-7,6ab55e75e0a76d68d18b8caa
+,Healthcare,healthcare,healthcare,#DC2626,expense,true,5000,category-8,6ab55e75e0a76d68d18b8cab
+,Education,education,education,#2563EB,expense,true,6000,category-9,6ab55e75e0a76d68d18b8cac
+,Shopping,shopping,shopping,#DB2777,expense,true,10000,category-10,6ab55e75e0a76d68d18b8cad
+,Entertainment,entertainment,entertainment,#9333EA,expense,true,6000,category-11,6ab55e75e0a76d68d18b8cae
+,Other,other,other,#64748B,expense,true,5000,category-12,6ab55e75e0a76d68d18b8caf

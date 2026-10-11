@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "name": "antigravity-shake-skill",
+      "enabled": true,
+      "description": "In-place transcript pruner preserving last N turns, errors, and reasoning.",
+      "configFile": ".agents/shake.toml"
+    },
+    {
+      "name": "token-optimizer",
+      "enabled": true,
+      "description": "PreToolUse output compressor, token tracker, and compaction restore checkpoints.",
+      "hooksFile": ".agents/hooks/hooks.json"
+    }
+  ]
+}
